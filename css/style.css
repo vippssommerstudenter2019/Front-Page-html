@@ -1,5 +1,11 @@
 body {
+  background-color: blue !important;
   font-family: 'Vipps', Arial, sans-serif;
+}
+
+.thisshouldbepink {
+  background-color: pink !important;
+  color: blue !important;
 }
 
 .vippsorange {
@@ -63,15 +69,7 @@ p, h2 {
   max-width: 60em;
 }
 
-header, main, footer {
-  padding-left: 300px;
-}
 
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
-}
 
 
 
