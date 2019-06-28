@@ -9,6 +9,7 @@ header {
   height: 14vh;
 }
 
+
 main {
   flex: 1 0 auto;
 }
@@ -16,6 +17,12 @@ main {
 footer {
   display: flex;
   height: 25vh;
+}
+
+
+.plsdonttouchthesides {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .height100vh {
