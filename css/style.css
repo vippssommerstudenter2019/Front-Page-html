@@ -1,18 +1,33 @@
 body {
   font-family: 'Vipps', Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header {
   height: 14vh;
 }
 
+main {
+  flex: 1 0 auto;
+}
 
 footer {
+  display: flex;
   height: 25vh;
 }
 
-#vippslogoheader {
-  height: 7vh;
+.height100vh {
+  height: 100vh;
+}
+
+.height70vh {
+  height: 70vh;
+}
+
+.height50vh {
+  height: 50vh;
 }
 
 .vippsorange {
@@ -78,17 +93,14 @@ footer {
 }
 
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+#vippslogoheader {
+  height: 7vh;
 }
 
-main {
-  flex: 1 0 auto;
+#vippsemojifooter {
+  margin: 0;
+  height: 100%;
 }
-
-
 
 
 @font-face {
